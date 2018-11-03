@@ -1,29 +1,31 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
+    When I want to collaborate with team or just for demonstration my work for publicity.
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    To my mind pulling changes manually is very important and useful because I want to control all process of changes and compare them between versions. 
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Forks is a clone of original repository to user github account. It allows working on some features or fixed bugs separate from the original developers and maybe to make pull requests to original repository in future.
+    Clones is just a copy of repository to your local machine. Cloning repository also includes all branches and the history of repository. Future commits and changes are not accesible for publicity.
+    Branches are something that is within a repository. They represent a thread of development. You usually have a master branch, but you may also have a branch where you are working on some feature, and another one to fix bug abc. When you have checked out a branch, any commits you make will stay on that branch and not be shared with other branches until you merge them with or rebase them onto the branch in question.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    It helps to avoid conflicts which can appear after future pushing commits or merging branches. 
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Nowadays I can't imagine development flow without version control systems like Git :) But to my mind, when developers dont have this systems modern connection services like messengers and social networks could help to deal with these problems.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    This approach prevents developers from breaking project when some accidents occures.
